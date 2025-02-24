@@ -3,8 +3,7 @@
 ### Basic Angular Shopping Cart 
 
 
-![Uploading Screenshot 2025-02-24 at 5.32.39 PM.png…]()
-
+<img width="1728" alt="Screenshot 2025-02-24 at 5 32 39 PM" src="https://github.com/user-attachments/assets/8eabd1e7-e852-4133-8772-c32537008344" />
 
 
 - Add Items to Cart, Increment Quantity, Remove Items from Cart
