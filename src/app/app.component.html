@@ -1,0 +1,20 @@
+<div class="container d-flex flex-column align-items-center justify-content-center vh-100">
+
+  <div>
+    <img src="/shopping-cart.jpg" width="200px">
+  </div>
+
+  <div class="row w-100">
+    <div class="col card">
+      <app-inventory (addToCart)="whenAddToCart($event)"></app-inventory>
+    </div>
+
+    <div class="col card">
+      <app-shopping-cart 
+        [shoppingCart]="updatedCart"
+        (removedItemCart)="removedItemUpdatedCart($event)">
+      </app-shopping-cart>
+    </div>
+  </div>
+
+</div>

@@ -1,0 +1,24 @@
+<h2>Select Items</h2>
+
+<table>
+
+    @for (i of inventory; let idx = $index; track i) {
+        <tr>
+            <td style="width:40%">
+                <img [src]="i.image" width="150px">
+            </td>
+            <td style="width:50%">
+                <h3>
+                    {{ i.name }}
+                </h3>
+            </td>
+            <td>
+                <button class="btn btn-primary"
+                    (click)="addItem(i)">
+                    Add
+                </button>
+            </td>
+        </tr>
+    }
+
+</table>
