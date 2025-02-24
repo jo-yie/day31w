@@ -3,6 +3,7 @@
 ### Basic Angular Shopping Cart 
 
 
+![Uploading Screenshot 2025-02-24 at 5.32.39 PM.png…]()
 
 
 
